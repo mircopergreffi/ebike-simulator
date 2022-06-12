@@ -56,6 +56,7 @@ def main():
 	plt.ylabel('Speed (km/h)')
 	plt.title('Bike Acceleration')
 	plt.legend()
+	plt.savefig("images/simulation.png")
 	plt.show()
 
 
