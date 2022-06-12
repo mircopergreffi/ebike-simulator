@@ -1,7 +1,7 @@
 
 defaults:
   time_step: 0.01 # [s]
-  exit_time: 60 # [s]
+  exit_time: 120 # [s]
   gravity: 9.81 # [m/s^2]
   mass: 130 # kg
   wheel_radius: 0.35 # m
