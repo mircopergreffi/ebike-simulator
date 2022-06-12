@@ -15,6 +15,8 @@ def main():
 		for key, value in defaults.items():
 			if key not in simulation:
 				simulation[key] = value
+		
+		simulation["mass"] = simulation["mass_vehicle"] + simulation["mass_passenger"]
 
 		# Calculate coefficients
 		k = simulation["air_density"] * simulation["drag_coefficient"] * simulation["frontal_area"] / 2
