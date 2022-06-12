@@ -1,0 +1,20 @@
+
+defaults:
+  time_step: 0.01 # [s]
+  exit_time: 60 # [s]
+  gravity: 9.81 # [m/s^2]
+  mass: 130 # kg
+  wheel_radius: 0.35 # m
+  rolling_resistance: 0.02 # -
+  drag_coefficient: 0.76
+  frontal_area: 0.5 # m^2
+  air_density: 1.225 # [kg/m^3]
+
+simulations:
+  - name: "Bike 350W"
+    max_power: 350 # W
+    max_torque: 30 # Nm
+  
+  - name: "Bike 1500W"
+    max_power: 1500 # W
+    max_torque: 100 # Nm
