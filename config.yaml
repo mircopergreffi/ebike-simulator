@@ -12,10 +12,35 @@ defaults:
   air_density: 1.225 # [kg/m^3]
 
 simulations:
+  - name: "Bike 250W"
+    max_power: 250 # W
+    max_torque: 30 # Nm
+
   - name: "Bike 350W"
     max_power: 350 # W
     max_torque: 30 # Nm
   
+  - name: "Bike 500W"
+    max_power: 500 # W
+    max_torque: 60 # Nm
+  
   - name: "Bike 1500W"
     max_power: 1500 # W
     max_torque: 100 # Nm
+
+  - name: "Silence S01"
+    mass_vehicle: 130 # kg
+    wheel_radius: 0.28 # m
+    max_power: 7000 # W
+    max_torque: 250 # Nm
+    drag_coefficient: 0.6
+    frontal_area: 0.8 # m^2
+
+  - name: "Grande Punto"
+    mass_vehicle: 1200 # kg
+    whweel_radius: 0.33 # m
+    max_power: 48000 # W
+    max_torque: 1500 # Nm
+    rolling_resistance: 0.011 # -
+    drag_coefficient: 0.33
+    frontal_area: 2.26 # m^2
