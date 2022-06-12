@@ -47,6 +47,10 @@ def main():
 
 		simulation["t"] = t
 		simulation["v"] = v
+	
+	# Print top speed
+	for simulation in simulations:
+		print("{} top speed: {:.0f} km/h".format(simulation["name"], max(simulation["v"])))
 
 	# Graphs simulation results
 	for simulation in simulations:
