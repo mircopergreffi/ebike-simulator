@@ -1,7 +1,7 @@
 
 ## Simulations
 ![Acceleration Simulation](images/simulation.png "Acceleration Simulation")
-![Power Consumption Simulation](images/simulation.png "Power Consumption Simulation")
+![Power Consumption Simulation](images/consumption.png "Power Consumption Simulation")
 
 ## Top Speeds
 - Bike 250W top speed: 27 km/h
