@@ -3,7 +3,7 @@
 ![Acceleration Simulation](images/simulation.png "Acceleration Simulation")
 ![Power Consumption Simulation](images/consumption.png "Power Consumption Simulation")
 
-The  power consumption show does not account for drivetrain, motor, inverter and battery inefficiencies.
+The  power consumption shown does not account for drivetrain, motor, inverter and battery inefficiencies.
 It is only the energy required to win drag and rolling resistance for a given distance travelled (1 km).
 
 ## Top Speeds
