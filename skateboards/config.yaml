@@ -1,0 +1,35 @@
+
+defaults:
+  time_step: 0.01 # [s]
+  exit_time: 60 # [s]
+  gravity: 9.81 # [m/s^2]
+  mass_passenger: 70 # kg
+  mass_vehicle: 7 # kg
+  wheel_radius: 0.090S # m
+  rolling_resistance: 0.02 # -
+  drag_coefficient: 1 # -
+  frontal_area: 0.5 # m^2
+  air_density: 1.225 # [kg/m^3]
+
+simulations:
+  - name: "Skateboard 300W/90mm x2"
+    max_power: 600 # W
+    max_torque: 4 # Nm
+    wheel_radius: 0.090 # m
+
+  - name: "Skateboard 1200W Peak (300W/90mm x2)"
+    max_power: 1200 # W
+    max_torque: 6 # Nm
+    wheel_radius: 0.090 # m
+
+  - name: "Skateboard 2400W Peak (300W/90mm x4)"
+    max_power: 2400 # W
+    max_torque: 12 # Nm
+    wheel_radius: 0.090 # m
+
+  - name: "Bike 1500W"
+    max_power: 1500 # W
+    max_torque: 100 # Nm
+    wheel_radius: 0.35 # m
+    mass_vehicle: 30 # kg
+    drag_coefficient: 0.76 # -
